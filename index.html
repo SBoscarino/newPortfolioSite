@@ -2,35 +2,94 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro:400,700" rel="stylesheet">
     <title>Stefanie Boscarino</title>
   </head>
   <body>
     <header>
-      <h1>Looking for your next fullstack dev?</h1>
-      <h2>Well, look no more!</h2>
+      <section id="headerWords">
+        <h1>Looking for your next full-stack dev?</h1>
+      </section>
     </header>
     <div id="AboutMe">
       <h2>Who Am I?</h2>
-      <p>I am an educator, an artist, and a junior full-stack programmer.</p>
-      <p>Born and raised in Memphis, TN, I have a passion for the arts in both visual and musical capacities. At The Univeristy of Memphis, my journey into Education began. After completing my first year, I moved to Dallas, Texas on a whim and moved my schooling to Univeristy of North Texas where I received my degree in Art Education. In this area, my specialities lie in my ability to teach others, my emotional intelligence/soft skills, leadership skills, organization, and time managment. I taught for two years, became bored, and decided to switch fields. My artistic abilities are not to be forgotten -- I have skills in illustration in both traditional and digital mediums. I enjoy creating new color palettes, like the one for this very site, to convey a message before anything is read. Finally, we come to my skills in code and the digital scene. After two years of teaching, I decided to try code. I jumped into TreeHouse Learning first, found that I liked it, and then went to The Iron Yard, a full-stack 16-week course. I learned HTML, CSS, JS, Node, Mongo and Postgres, and finally React and Redux. For my final project, I created an Alexa app with a React front-end and with Node and MongoDB on the bacl-end. You can find the two halves of the project on my GitHub.
+      <p>I'm Stefanie Boscarino!</p>
+      <p>I am a junior full-stack programmer, an educator, and an artist.</p>
+      <p>I enjoy traveling, making things, learning, meeting new people, watching anime and spooky movies, and petting my handsome cat, Daniel.</p>
       </p>
-      <h2>What CAN you do?</h2>
-      <p>I specialize in front-end development, where my ability to create great UI/UX and responsive applications can shine. From my time in education, you'll find that my skills in speaking are up to snuff when explaining tasks and asking questions to others in my team or helping a client who might not know anything about development.</p>
-      <h2>Who Do I Want to Do?</h2>
-      <p>I get asked this a lot. For now, I am content to learn from others with more skill than me in code.  Eventually, I see myself entering a position of leadership or in some kind of educational capacity, perhaps with juniors? I am still young and getting the feel of the tech field. I have plenty of time to find the right niche for myself, but I am happy to hear about what kinds of positions you can offer to someone with my skills.</p>
+      <h2>Areas of Strength</h2>
+      <ul>
+        <li><i class="fa fa-code fa-5x"></i><li>
+        <li class="bold">Code</li>
+        <li>The following are some of my skills in Code:</li>
+        <li>Javascript / HTML5 / CSS3</li>
+        <li>Node.js</li>
+        <li>Postgres / MongoDB</li>
+        <li>Alexa Skills</li>
+        <li>SASS</li>
+        <li>Responsive Design</li>
+        <li>React / Redux</li>
+        <li>GitHub</li>
+      </ul>
+      <ul>
+        <li><i class="fa fa-university fa-5x"></i></li>
+        <li class="bold">Education/Leadership</li>
+        <li>Being a teacher left me with many transferrable skills such as:</li>
+        <li>Team Player</li>
+        <li>Understands failure</li>
+        <li>Able to read people and understand their reactions</li>
+        <li>Not afraid to take charge</li>
+        <li>Not afraid to ask questions</li>
+        <li>Organized / Timely</li>
+        <li>Bladder of Steel</li>
+        <li>Enjoys explaining things and helping others</li>
+        <li>Able to empathize</li>
+        <li>Public Speaking</li>
+      </ul>
+      <ul>
+        <li><i class="fa fa-paint-brush fa-5x"></i><li>
+        <li class="bold">The Arts</li>
+        <li>As a trained artist, you might find the following useful to your team:</li>
+        <li>Adobe Photoshop/ Illustrator experience</li>
+        <li>UI/UX design with Sketch and on paper</li>
+        <li>Illustration</li>
+        <li>Ink / Watercolor</li>
+        <li>Doodles to make people smile</li>
+      </ul>
+      <h2>What do I want to do in the tech field?</h2>
+      <p>I get asked this a lot. For now, I am content to learn from others with more skill than me in code. I lean toward front-end, where my creative abilities can shine, but I am not against learning anything and everything. Eventually, I see myself entering a position of leadership or in some kind of educational capacity, whether it's training juniors or teaching newbies about this field. I am still young and getting the feel of the tech field. I have plenty of time to find the right niche for myself, but I am happy to hear about what kinds of positions you can offer to someone with my skills.</p>
+      <h2>Current Work</h2>
+      <ul>
+        <li class="bold">2017</li>
+        <li>Student at The Iron Yard</li>
+        <li>Final Project for The Iron Yard: Alexa app with React frontend</li>
+        <li>Dec: Full-stack consultant for Zeal IT Consultants</li>
+      </ul>
+      <ul>
+        <li class="bold">2018</li>
+        <li>Jan-June: TA for SMU's coding bootcamp held on campus</li>
+        <li>Full-stack consultant for Zeal IT Consultants</li>
+      </ul>
     </div>
 
     <section id="portfolioParent">
-      <h2>My Work</h2>
-      <h3>My Artwork</h3>
+      <h2>My Work In Code</h2>
+      <p>The following work provides a range of my skills - some of the sites are purely for trying a new Javascript function or concept while others are meant to be more aesthetically pleasing.</p>
       <div id="innerPortfolioParent">
-        <div id="portfolioItemOne">
+        <h1>Portfolio</h1>
+        <div class='container' id='portfolio-flex'>
+
+
+
         </div>
       </div>
     </section>
 
     <section id="connect">
       <h1>Wanna drop me a line?</h1>
+      <h3>I look forward to speaking with you!</h3>
       <div class="container">
           <div class='formBackground'>
           <form action="/sendEmail" method="POST">
@@ -63,13 +122,14 @@
         </div>
       </div>
     </section>
-
-    <div id="social_icons">
-      <a href='https://twitter.com/StefBoscarino'><i class="fa fa-twitter" aria-hidden="true" style='font-size:10vh'></i></a>
-      <a href='https://medium.com/@stefanie.boscarino'><i class="fa fa-medium" aria-hidden="true" style='font-size:10vh'></i></a>
-      <a href='https://github.com/sbscrino'><i class="fa fa-github-alt" aria-hidden="true" style='font-size:10vh'></i></a>
-      <a href='https://www.linkedin.com/in/stefanie-boscarino-17566b147/'><i class="fa fa-linkedin" aria-hidden="true" style='font-size:10vh'></i></a>
-    </div>
+    <footer>
+      <p>© Stefanie Boscarino 2017</p>
+      <div id="social_icons">
+        <a href='https://twitter.com/StefBoscarino'><i class="fa fa-twitter fa-5x"></i></a>
+        <a href='https://github.com/sbscrino'><i class="fa fa-github-alt fa-5x"></i></a>
+        <a href='https://www.linkedin.com/in/stefanie-boscarino-17566b147/'><i class="fa fa-linkedin fa-5x"></i></a>
+      </div>
+    </footer>
 
   </body>
 </html>
