@@ -53,7 +53,7 @@ h2, h3 {
   font-family: 'Montserrat', sans-serif;
   color: #E98074;
 }
-p, ul, li {
+p, ul, li, div {
   font-family: 'Source Sans Pro', sans-serif;
 }
 li {
@@ -68,6 +68,16 @@ header {
   background: #E98074;
   text-align: center;
   height: 400px;
+}
+#photosFlex{
+  display: flex;
+  justify-content: center;
+}
+.photo{
+  margin: 10px;
+  height:130px;
+  border-radius: 10px;
+  border: solid 3px #E98074;
 }
 #headerWords {
   padding-top: 100px;
@@ -88,6 +98,7 @@ header {
   background-color: #8E8D8A;
   padding:10px;
   color: white;
+  border-radius: 10px;
 }
 #currentWork h2{
   color: white;
@@ -108,6 +119,36 @@ ul {
   font-weight: bold;
   color: #D8C3A5;
 }
+#art {
+	text-decoration: none;
+	color: #E98074;
+	font-weight: bold;
+}
+#art:hover{
+	color: #8E8D8A;
+}
+#portfolioFlex > div {
+  max-width: 25%;
+  padding: 1px;
+  text-align: center;
+}
+#portfolioFlex{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.portfolioImage{
+  border: 5px solid transparent;
+  width: 100%;
+  height: auto;
+}
+.portfolioImage:hover {
+  border: solid #E98074 5px;
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+}
 footer {
   padding-top: 2px;
   padding-bottom: 2px;
@@ -120,11 +161,11 @@ footer > h2, h3, p{
 footer > p {
   text-align: center;
 }
-a {
+.fa {
   text-decoration: none;
   color: #D8C3A5;
 }
-a :hover {
+.fa:hover {
   color: #EAE7DC;
 }
 #social_icons{
@@ -137,4 +178,54 @@ a :hover {
 #social_icons a {
   padding-left: 5px;
   padding-right: 5px;
+}
+
+
+/*iPAD +*/
+@media screen and (min-width: 700px) {
+  .photo {
+    height:200px;
+    border: solid 4px #E98074;
+  }
+}
+
+@media screen and (min-width: 1367px) {
+	#forMargins{
+	  margin-left: 100px;
+	  margin-right: 100px;
+	}
+  .photo {
+    height:300px;
+    border: solid 4px #E98074;
+  }
+  #aboutMe {
+    display: flex;
+  }
+  #name {
+    font-size: 23px;
+    padding-bottom: 10px;
+  }
+  #intro{
+    padding-bottom: 8px;
+  }
+  .aboutMeInformation{
+    flex-grow: 50%;
+  }
+  #strengthsFlex {
+    padding-top: 10px;
+    display:flex;
+    justify-content: center;
+  }
+  ul {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #whereImGoingParagraph {
+    padding: 20px 40px;
+  }
+	#currentWork{
+		width: 70%;
+		margin: auto;
+	}
+
 }
