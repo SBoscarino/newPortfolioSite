@@ -184,18 +184,31 @@ footer > p {
 /*iPAD +*/
 @media screen and (min-width: 700px) {
   .photo {
-    height:200px;
+    height:250px;
     border: solid 4px #E98074;
   }
+	#strengthsFlex {
+		padding-top: 10px;
+		display:flex;
+		justify-content: center;
+	}
+	ul {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 }
 
+/*desktop +*/
 @media screen and (min-width: 1367px) {
 	#forMargins{
 	  margin-left: 100px;
 	  margin-right: 100px;
 	}
+	footer{
+		padding: 30px 100px 20px 100px;
+	}
   .photo {
-    height:300px;
+    height:350px;
     border: solid 4px #E98074;
   }
   #aboutMe {
