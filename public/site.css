@@ -24,11 +24,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-  background-color: #EAE7DC;
+  background-color: rgb(240, 230, 225);
 	line-height: 1;
 }
 div > p, section > p {
-  color: black;
+  color: #354D62;
 }
 ol, ul {
 	list-style: none;
@@ -47,11 +47,11 @@ table {
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: rgb(240, 230, 225);
 }
 h2, h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #E98074;
+  color: #318F9F;
 }
 p, ul, li, div {
   font-family: 'Source Sans Pro', sans-serif;
@@ -64,8 +64,8 @@ li {
   margin-right: 20px;
 }
 header {
-  color: white;
-  background: #E98074;
+  color: rgb(240, 230, 225);
+  background: #0A3C60;
   text-align: center;
   height: 400px;
 }
@@ -77,7 +77,7 @@ header {
   margin: 10px;
   height:130px;
   border-radius: 10px;
-  border: solid 3px #E98074;
+  border: solid 3px #318F9F;
 }
 #headerWords {
   padding-top: 100px;
@@ -89,25 +89,25 @@ header {
 #name {
   font-size: 20px;
   font-weight: bold;
-  color: #E98074;
+  color: #318F9F;
 }
 #aboutMe, #strengths, #whereImGoing, #portfolioParent{
   padding-bottom: 15px;
 }
 #currentWork, #strengths{
-  background-color: #8E8D8A;
+  background-color: #0A3C60;
   padding:10px;
-  color: white;
+  color: rgb(240, 230, 225);
   border-radius: 10px;
 }
 #currentWork h2{
-  color: white;
+  color: #318F9F;
 }
 #strengths h2{
-  color: white;
+  color: #318F9F;
 }
 .strengthIcon {
-  color: #EAE7DC;
+  color: rgb(240, 230, 225);
   padding-bottom: 5px;
 }
 ul {
@@ -117,15 +117,15 @@ ul {
 .bold {
   font-size: 20px;
   font-weight: bold;
-  color: #D8C3A5;
+  color: #318F9F;
 }
 #art {
 	text-decoration: none;
-	color: #E98074;
+	color: #318F9F;
 	font-weight: bold;
 }
 #art:hover{
-	color: #8E8D8A;
+	color: #0A3C60;
 }
 #portfolioFlex > div {
   max-width: 25%;
@@ -145,35 +145,35 @@ ul {
   height: auto;
 }
 .portfolioImage:hover {
-  border: solid #E98074 5px;
+  border: solid #318F9F 5px;
   opacity: 0.7;
   filter: alpha(opacity=50);
 }
 footer {
   padding-top: 2px;
   padding-bottom: 2px;
-  background: #E98074;
+  background: #0A3C60;
 }
 footer > h2, h3, p{
   padding-left: 20px;
-  color: #EAE7DC;
+  color: #318F9F;
 }
 footer > p {
   text-align: center;
 }
 .fa {
   text-decoration: none;
-  color: #D8C3A5;
+  color: rgb(240, 230, 225);
 }
-.fa:hover {
-  color: #EAE7DC;
+a > .fa:hover {
+  color: #318F9F;
 }
 #social_icons{
   font-size: 20px;
-  background: #E98074;
+  background: #0A3C60;
   text-align: center;
   height: 80px;
-  color: white;
+  color: rgb(240, 230, 225);
 }
 #social_icons a {
   padding-left: 5px;
@@ -183,9 +183,12 @@ footer > p {
 
 /*iPAD +*/
 @media screen and (min-width: 700px) {
+  #name {
+    font-size: 25px;
+  }
   .photo {
     height:250px;
-    border: solid 4px #E98074;
+    border: solid 4px #318F9F;
   }
 	#strengthsFlex {
 		padding-top: 10px;
@@ -203,19 +206,25 @@ footer > p {
 	#forMargins{
 	  margin-left: 100px;
 	  margin-right: 100px;
-	}
+  }
+  h2 {
+    font-size: 2em;
+  }
+  p{
+    font-size: 1em;
+  }
 	footer{
 		padding: 30px 100px 20px 100px;
 	}
   .photo {
     height:350px;
-    border: solid 4px #E98074;
+    border: solid 4px #0A3C60;
   }
   #aboutMe {
     display: flex;
   }
   #name {
-    font-size: 23px;
+    font-size: 30px;
     padding-bottom: 10px;
   }
   #intro{
@@ -239,6 +248,16 @@ footer > p {
 	#currentWork{
 		width: 70%;
 		margin: auto;
-	}
+  }
+  .spacer{
+    height: 30px;
+  }
 
 }
+
+
+/* 
+Colors: 
+Orange: #E75C41,        Brick: #B42B1F, 
+Light Gray:#CDID1D4,    Blue: #354D62,      Dark Gray: #9197A1 
+*/
